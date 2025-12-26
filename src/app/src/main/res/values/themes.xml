@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Application Theme -->
+    <style name="Theme.MyApplication1" parent="Theme.MyApplication1.Zen" />
+
+    <!-- Zen (Light) Theme -->
+    <style name="Theme.MyApplication1.Zen" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/zen_accent</item>
+        <item name="colorOnPrimary">@color/zen_card_background</item>
+        <item name="colorSurface">@color/zen_background</item>
+        <item name="colorOnSurface">@color/zen_primary_text</item>
+        <item name="colorSurfaceContainerHighest">@color/zen_card_background</item>
+        <item name="colorOnSurfaceVariant">@color/zen_secondary_text</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Futuristic (Dark) Theme -->
+    <style name="Theme.MyApplication1.Futuristic" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/futuristic_neon_accent2</item>
+        <item name="colorOnPrimary">@color/futuristic_background</item>
+        <item name="colorSurface">@color/futuristic_background</item>
+        <item name="colorOnSurface">@color/futuristic_primary_text</item>
+        <item name="colorSurfaceContainerHighest">@color/futuristic_surface</item>
+        <item name="colorOnSurfaceVariant">@color/futuristic_secondary_text</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

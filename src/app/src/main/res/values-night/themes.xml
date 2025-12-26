@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode defaults to Futuristic. -->
+    <style name="Base.Theme.MyApplication1" parent="Theme.MyApplication1.Futuristic">
+        <!-- This makes our "Futuristic" theme the default in night mode. -->
+    </style>
+
+    <!-- Splash Screen Theme for Night Mode -->
+    <style name="Theme.MyApplication1.NoActionBar" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- This remains for the splash screen, which has its own design -->
+        <item name="android:windowBackground">@color/futuristic_background</item>
+        <item name="android:statusBarColor">@color/futuristic_background</item>
+        <item name="android:navigationBarColor">@color/futuristic_background</item>
+    </style>
+</resources>

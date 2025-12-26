@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Futuristic Palette -->
+    <color name="futuristic_background">#0A001F</color>
+    <color name="futuristic_surface">#1C103A</color>
+    <color name="futuristic_primary_text">#E0E0E0</color>
+    <color name="futuristic_secondary_text">#9E8EFF</color>
+    <color name="futuristic_neon_accent1">#00FFFF</color> <!-- Cyan/Electric Blue -->
+    <color name="futuristic_neon_accent2">#FF00FF</color> <!-- Magenta -->
+    <color name="futuristic_transparent_panel">#801C103A</color> <!-- 50% alpha of futuristic_surface -->
+    <color name="futuristic_neon_accent1_transparent">#4D00FFFF</color> <!-- Cyan with approx 30% alpha for ripples -->
+
+    <!-- Added Colors -->
+    <color name="futuristic_surface_variant_transparent_for_track">#4D1C103A</color> <!-- 30% alpha of futuristic_surface -->
+    <color name="futuristic_neon_accent2_transparent">#80FF00FF</color> <!-- 50% alpha of futuristic_neon_accent2 -->
+    <color name="futuristic_surface_subtle">#221540</color> <!-- A subtle, slightly lighter variant of futuristic_surface -->
+
+    <!-- Zen Ink Palette -->
+    <color name="zen_background">#F7F7F7</color>
+    <color name="zen_card_background">#FFFFFF</color>
+    <color name="zen_primary_text">#212121</color>
+    <color name="zen_secondary_text">#424242</color> <!-- A slightly lighter gray for secondary text if needed -->
+    <color name="zen_accent">#008080</color> <!-- Deep Teal -->
+    <color name="zen_accent_transparent">#4D008080</color> <!-- Deep Teal with approx 30% alpha -->
+    <color name="zen_divider">#E0E0E0</color> <!-- Light gray for dividers -->
+
+    <!-- Liquid Glass Colors -->
+    <color name="glass_background_start_color">#8E24AA</color> <!-- Purple -->
+    <color name="glass_background_end_color">#00ACC1</color> <!-- Cyan -->
+    <color name="glass_surface_color">#40FFFFFF</color> <!-- 25% transparent white -->
+    <color name="glass_surface_stroke_color">#80FFFFFF</color> <!-- 50% transparent white -->
+    <color name="glass_text_primary">#FFFFFF</color>
+    <color name="glass_text_secondary">#E0E0E0</color>
+    <color name="glass_accent_color">#FF4081</color> <!-- Pink -->
+</resources>

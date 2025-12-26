@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:layout_marginBottom="24dp"/>
+
+        <ImageView
+            android:id="@+id/about_app_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/app_logo"
+            android:contentDescription="@string/app_name"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/about_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/about_app_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/about_app_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your daily source of inspiration and motivation. Browse quotes by category, save your favorites, and get a daily dose of wisdom with our Quote of the Day notification."
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed By:"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/about_developer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vijay K"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact:"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/about_contact_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="vijayrk0513@gmail.com"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:autoLink="email"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/about_privacy_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="?attr/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/about_rate_us_button"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate Us on Google Play"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

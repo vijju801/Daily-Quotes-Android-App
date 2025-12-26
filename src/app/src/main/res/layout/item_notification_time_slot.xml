@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/tv_notification_slot_label"
+        android:layout_width="wrap_content"        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        tools:text="Time 1:"
+        android:textAppearance="?attr/textAppearanceBodyMedium"/>
+
+    <Button
+        android:id="@+id/btn_pick_time"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        tools:text="10:00 AM"/>
+
+    <Spinner
+        android:id="@+id/spinner_category_theme_slot"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minHeight="48dp"
+        android:contentDescription="Select category for this time slot"/>
+
+</LinearLayout>
