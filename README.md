@@ -94,12 +94,15 @@ Many motivational apps are overloaded with ads and lack personalization. Users n
 <hr>
 
 <h2 id="output">📱 Dashboard / Model / Output</h2>
-<ul>
-  <li>Home screen with Quote of the Day</li>
-  <li>Category-wise quote screens</li>
-  <li>Daily notification preview</li>
-  <li>Settings screen for theme and notifications</li>
-</ul>
+
+<p align="center">
+  <img src="docs/System_design.png" width="700" alt="System Design Diagram">
+</p>
+
+<p align="center">
+  <em>System Design of Daily Quotes Android Application</em>
+</p>
+
 <p><a href="#top">⬆ Back to Top</a></p>
 
 <hr>
